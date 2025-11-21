@@ -1,5 +1,6 @@
 # Ex. No: 10 – Packet Tracer: Subnetting Scenario
-# Date: ___________
+# Date: 20-11-2025
+___________
 ________________________________________<br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -17,7 +18,9 @@ ________________________________________<br>
 •	Serial DCE/DTE cable for WAN link<br>
 ________________________________________
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1 ↔ R2 serial link, each router connected to two switches with PCs attached.)<br>
+
+<img width="1893" height="847" alt="image" src="https://github.com/user-attachments/assets/fc77f68d-0b94-459e-9648-9eb1c05b8be3" />
+<br>
 ________________________________________
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -113,7 +116,19 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2<br>
+
+<img width="1720" height="887" alt="image" src="https://github.com/user-attachments/assets/cbaa2d40-d447-4bd3-95d2-6d1ec4069b6b" />
+<img width="1617" height="837" alt="image" src="https://github.com/user-attachments/assets/06ee58a9-cd42-4de7-8f06-85bf7a48cb28" />
+<img width="1615" height="836" alt="image" src="https://github.com/user-attachments/assets/ff5217a3-42f2-460e-89c5-3decc860dc3d" />
+
+
+
 •	Successful pings PC ↔ PC<br>
+
+<img width="1611" height="832" alt="image" src="https://github.com/user-attachments/assets/19baddb0-0f10-4fb2-82e0-6d748031083d" />
+<img width="1612" height="833" alt="image" src="https://github.com/user-attachments/assets/8c31125e-e5bb-441b-9385-490e6be8abe6" />
+
+
 ________________________________________<br>
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Routers, switches, and PCs were configured with correct addressing. Connectivity within LANs and across WAN was verified.
